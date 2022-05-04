@@ -1,0 +1,99 @@
+
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary:#008000;
+}
+/* header */
+#header{
+    color:var(--primary);
+    
+}
+#header.show{
+    background-color:var(--primary);
+    color:#fff;
+    animation: show 500ms ease ;
+}
+@keyframes show {
+    0%{transform:translateY(-12rem);}
+    100%{transform:translateY(0rem);}
+}
+/* header */
+
+.wrapper{
+    animation: move 10s ease infinite alternate;
+
+}
+
+@keyframes move {
+    0%{transform:translateY(0rem)}
+    25%{ transform:translateY(-2.5rem); }
+    50%{ transform:translateY(-5rem); }
+    75%{ transform:translateY(-7.5rem); }
+    100%{ transform:translateY(-7.5rem); }
+}
+
+.navbar li a{
+    margin-right:1.5rem;
+}
+@media screen and (max-width:767.99px) {
+    .navbar{
+        flex-direction: column;
+        background-color: var(--primary);
+        top:139;
+        right:0;
+        position:relative;
+        transform:translateX(10rem);
+        transition:400ms ease-in;
+        border-radius: 0.5rem;
+    }
+    .navbar.active{
+        transform:translateX(0rem);
+    }
+    .navbar li{
+      padding:0.5rem 1rem
+
+    }
+    .navbar a{
+        color:white;
+    }
+    .openMenu{
+        display: block;
+        position: absolute;
+        right:25;
+    }
+
+
+}
+
+
+/* categories */
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/* categories */

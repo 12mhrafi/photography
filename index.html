@@ -1,0 +1,521 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swipper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- swipper -->
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="stylesheet" href="custom/custom.css" />
+  </head>
+  <body class="font-sans">
+     
+    <section class="bg-gray-100">
+        <div id = "header" class = " fixed h-20  w-full m-auto flex items-center transition shadow-lg z-[9999]">
+         <header class=" w-full container flex items-center justify-between">
+           <div>
+               <a class = "text-4xl text-semibold" href="">Riyan</a>
+           </div>
+           <nav> 
+               <ul id = "openNav" class="flex md:text-lg navbar">
+                   <li><a href="../index.html">Home</a></li>
+                   <li><a href="/components/about.html">About</a></li>
+                   <li><a href="#work">Works</a></li>
+                   <li><a href="components/blog.html">Blog</a></li>
+                   <li><a href="/components/pricing.html">pricing</a></li>
+                   <li><a href="#contact">Contact</a></li>
+               </ul>
+           </nav>
+           <div id = "toggleMenu" class ="openMenu hidden "><i class="fa-solid fa-bars"></i><div>
+       </header>
+        </div> 
+        <div class="container">
+         <div class="flex space-y-8 flex-col items-center justify-center min-h-screen min-w-full">
+           <img src="/img/img.JPG" class = "w-52 h-52 rounded-full object-cover ring-4 ring-primary" alt="">
+           <h1 class="text-5xl  font-bold">Ashiqur Rahman</h1>
+           <div class="text-primary font-semibold text-3xl h-10 overflow-hidden flex flex-col items-center justify-center">
+           <div class = "h-full wrapper space-y-1">
+             <p>Photographer</p>
+             <p>Videographer</p>
+             <p>Cinematographer</p>
+             <p>Graphic Designer</p>
+           </div>
+           </div>
+             <p class = "text-gray-500 lg:w-2/3 m-auto font-semibold tracking-wide">Creative Photographer based in Bangladesh and happy to travel all over country to capture photos.Creative Photographer based in Bangladesh and happy to travel all over country to capture photos.</p>
+           <div class = "flex gap-x-3 ">
+             <a href=""><i class="fa-brands fa-facebook p-3 bg-primary rounded-full text-white hover:bg-gray-400 "></i></a>
+             <a href=""><i class="fa-brands fa-twitter p-3 bg-primary  duration-300  rounded-full text-white hover:bg-gray-400"></i></a>
+             <a href=""><i class="fa-brands fa-whatsapp p-3 bg-primary  duration-300 rounded-full text-white hover:bg-gray-400"></i></a>
+             <a href=""><i class="fa-brands fa-instagram p-3 bg-primary  duration-300  rounded-full text-white hover:bg-gray-400"></i></a>
+           </div>
+           </div>
+       </div>
+     </section>
+
+     <section class = "bg-primary  flex flex-col justify-start items-center ">
+       <div class="container">
+          <div class = "space-y-3">
+            <h5 class="text-lg text-gray-900 font-semibold pt-16">HELLO THERE</h5>
+            <h2 class="text-5xl font-bold text-gray-300">We Are Glint</h2>
+         
+         
+            <p class="text-gray-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique ut est eaque facilis fuga nesciunt modi quas id. Pariatur, beatae illo labore voluptatum dolorum eveniet laboriosam assumenda ea reprehenderit nemo, voluptatem aut? Maxime hic iure, labore maiores nam sunt.</p>
+          </div>
+          <div class = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pb-16">
+         <div class = "text-center space-y-4 py-8">
+                <div class="text-6xl text-gray-300 counter" data-target="13002">0</div>
+                <p class="text-lg font-semibold">Awards Received</p>
+              </div>
+                     <div class = "text-center space-y-4 py-8">
+                <div class="text-6xl text-gray-300 counter" data-target="13030">0</div>
+                <p class="text-lg font-semibold">cups of coffee</p>
+              </div>
+                     <div class = "text-center space-y-4 py-8">
+                <div class="text-6xl text-gray-300 counter" data-target="13500">0</div>
+                <p class="text-lg font-semibold">projects completed</p>
+              </div>
+                     <div class = "text-center space-y-4 py-8">
+                <div class="text-6xl text-gray-300 counter" data-target="13300">0</div>
+                <p class="text-lg font-semibold">Happy Clients</p>
+              </div>
+         
+          </div>
+       </div>
+     </section>
+
+
+
+
+    <section class="pt-28">
+      <div class="relative">
+        <h2 class="text-center text-6xl font-bold text-gray-900 pb-16">
+          What <span class="text-primary">we do</span>
+        </h2>
+        <div class="absolute bottom-0 border border-primary"></div>
+      </div>
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div class="shadow-md">
+            <div class="px-3">
+              <img class="h-60 w-full object-cover" src="img/img2.JPG" alt="" />
+            </div>
+            <div class="py-9 px-5">
+              <h3 class="text-3xl font-bold text-center pb-3">SHOTTING</h3>
+              <p class="text-gray-400 text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                eligendi aspernatur voluptatum. Asperiores nesciunt esse sit
+                adipisci deserunt dolorem itaque.
+              </p>
+            </div>
+          </div>
+          <div class="shadow-md">
+            <div class="px-3">
+              <img class="h-60 w-full object-cover" src="img/img3.JPG" alt="" />
+            </div>
+            <div class="py-9 px-5">
+              <h3 class="text-3xl font-bold text-center pb-3">VIDEOS</h3>
+              <p class="text-gray-400 text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                eligendi aspernatur voluptatum. Asperiores nesciunt esse sit
+                adipisci deserunt dolorem itaque.
+              </p>
+            </div>
+          </div>
+          <div class="shadow-md">
+            <div class="px-3">
+              <img class="h-60 w-full object-cover" src="img/img4.JPG" alt="" />
+            </div>
+            <div class="py-9 px-5">
+              <h3 class="text-3xl font-bold text-center pb-3">EDITING</h3>
+              <p class="text-gray-400 text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                eligendi aspernatur voluptatum. Asperiores nesciunt esse sit
+                adipisci deserunt dolorem itaque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pt-28">
+      <div class="container space-y-9 flex lg:justify-between flex-col lg:flex-row ">
+        <div>
+           <h2 class=" text-5xl font-bold text-gray-900"> Categories </h2>
+          <p class = " pt-6 lg:py-6 w-1/2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ex
+          natus debitis exercitationem nemo illum vel accusamus aspernatur
+          dolore reiciendis?
+        </p>
+        </div >
+      <div>
+        <a class = "bg-primary px-4 py-2 inline-block mb-4 text-gray-50 " href="">View All</a>
+      </div>
+      </div>
+      <!-- Swiper -->
+      <div class="container">
+        <div class="swiper mySwiper w-full h-52 md:h-96 md:w-full z-0">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex flex-col">
+              <img src="/img/img2.jpg" alt="" />
+              <div class="py-5 space-y-3 bg-gray-100 w-full">
+                <h3 class="uppercase text-gray-800 font-bold">animal</h3>
+                <small class="text-primary">120 pictures</small>
+              </div>
+            </div>
+              <div class="swiper-slide flex flex-col">
+              <img src="/img/img5.jpg" alt="" />
+              <div class="py-5 space-y-3 bg-gray-100 w-full">
+                <h3 class="uppercase text-gray-800 font-bold">animal</h3>
+                <small class="text-primary">120 pictures</small>
+              </div>
+            </div>
+                        <div class="swiper-slide flex flex-col">
+              <img src="/img/img3.jpg" alt="" />
+              <div class="py-5 space-y-3 bg-gray-100 w-full">
+                <h3 class="uppercase text-gray-800 font-bold">animal</h3>
+                <small class="text-primary">120 pictures</small>
+              </div>
+            </div>
+                        <div class="swiper-slide flex flex-col">
+              <img src="/img/img4.jpg" alt="" />
+              <div class="py-5 space-y-3 bg-gray-100 w-full">
+                <h3 class="uppercase text-gray-800 font-bold">animal</h3>
+                <small class="text-primary">120 pictures</small>
+              </div>
+            </div>
+                        <div class="swiper-slide flex flex-col">
+              <img src="/img/img5.jpg" alt="" />
+              <div class="py-5 space-y-3 bg-gray-100 w-full">
+                <h3 class="uppercase text-gray-800 font-bold">animal</h3>
+                <small class="text-primary">120 pictures</small>
+              </div>
+            </div>
+                        <div class="swiper-slide flex flex-col">
+              <img src="/img/img6.jpg" alt="" />
+              <div class="py-5 space-y-3 bg-gray-100 w-full">
+                <h3 class="uppercase text-gray-800 font-bold">animal</h3>
+                <small class="text-primary">120 pictures</small>
+              </div>
+            </div>
+
+          </div>
+         
+        </div>
+      </div>
+      <!-- Swiper JS -->
+    </section>
+
+
+
+    <!-- work -->
+    <section class="pt-28" id="work">
+      <h2 class="text-center text-7xl font-bold text-gray-900 pb-16">
+        Our latest work
+      </h2>
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- col-1 -->
+        <div class="flex flex-col gap-y-4">
+            <div class="relative bg-black bg-opacity-30 overflow-hidden">
+                <img src="img/img2.jpg" alt="">
+                <a class="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30  hover:bg-opacity-60 duration-500 "
+                    href="#!">
+                    <p class = "">ajkdhf</p>
+                  </a>
+            </div>
+                    <div class="relative bg-black bg-opacity-40 overflow-hidden">
+                <img src="img/img9.jpg" alt="">
+                <a class="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30  hover:bg-opacity-60 duration-500 "
+                    href="#!">Link</a>
+            </div>
+        </div>
+
+        <!-- col-2 -->
+                <div class="flex flex-col gap-y-4">
+            <div class="relative bg-black bg-opacity-40 overflow-hidden">
+                <img src="img/img10.jpg" alt="">
+                <a class="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30  hover:bg-opacity-60 duration-500 "
+                    href="#!">Link</a>
+            </div>
+                    <div class="relative bg-black bg-opacity-40 overflow-hidden">
+                <img src="img/img3.jpg" alt="">
+                <a class="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30  hover:bg-opacity-60 duration-500 "
+                    href="#!">Link</a>
+            </div>
+        </div>
+        <!-- col-3 -->
+                <div class="flex flex-col gap-y-4">
+            <div class="relative bg-black bg-opacity-40 ">
+                <img src="img/img3.jpg" alt="">
+                <a class="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30  hover:bg-opacity-60 duration-500 "
+                    href="#!">Link</a>
+            </div>
+                    <div class="relative bg-black bg-opacity-40 overflow-hidden">
+                <img src="img/img8.jpg" alt="">
+                <a class="absolute inset-0 flex items-center justify-center text-white bg-black bg-opacity-30  hover:bg-opacity-60 duration-500 "
+                    href="#!">Link</a>
+            </div>
+        </div>
+            
+        </div>
+      </div>
+    </section>
+<!-- work -->
+    <section id="contact" class="pt-32">
+      <h2 class="text-center text-7xl font-bold text-gray-900 pb-12">
+        Cont<span class="text-primary">act</span>
+      </h2>
+      <div class="container">
+        <p class="pb-16 text-gray-400 text-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+          blanditiis at dicta ad non. Optio nihil amet tempore. Quam ipsum
+          libero minima aperiam dolorem? Ipsam blanditiis tempore, explicabo
+          repellendus minima ullam distinctio labore incidunt adipisci obcaecati
+          magnam ipsum dolore consequatur sapiente sint itaque cum beatae
+          molestias ex. Fuga, harum possimus?
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-16">
+          <div>
+            <form action="">
+              <div class="flex flex-col gap-y-4">
+                <input
+                  class="border py-3 px-3 border-gray-300 outline-none"
+                  type="text"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  class="border py-3 px-3 border-gray-300 outline-none"
+                  type="email"
+                  placeholder="Email"
+                  required
+                />
+                <textarea
+                  class="border border-gray-300 outline-none px-3"
+                  name=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write..."
+                  required
+                ></textarea>
+                <button
+                  type="submit"
+                  class="inline-block bg-primary text-white py-3 px-2 hover:opacity-75 duration-300"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+          <div>
+            <div class="space-y-2">
+              <h3 class="text-2xl text-gray-800 font-semibold">
+                Get in <span class="text-primary">touch</span>
+              </h3>
+              <p class="py-4 text-gray-500">
+                Always available for freelancing if the right project comes
+                along, Feel free to contact me.
+              </p>
+
+              <div class="space-y-7">
+                <div class="flex items-center gap-x-5">
+                  <i
+                    class="fa-solid fa-address-card p-5 ouline-none rounded-full bg-primary hover:opacity-75 hover:border-primary transition text-white"
+                  ></i>
+                  <p class="text-base text-gray-700 font-semibold">
+                    123 Stree New York City ,<br />
+                    United States Of America <br />
+                    NY 750065.
+                  </p>
+                </div>
+                <div class="flex items-center gap-x-5">
+                  <i
+                    class="fa-solid fa-envelope p-5 rounded-full bg-primary hover:opacity-75 transition text-white"
+                  ></i>
+                  <p class="text-base text-gray-700 font-semibold">
+                    Email,<br />
+                    rafi71078@gmail.com
+                  </p>
+                </div>
+                <div class="flex items-center gap-x-5">
+                  <i
+                    class="fa-solid fa-address-card p-5 rounded-full bg-primary hover:opacity-75 transition text-white"
+                  ></i>
+                  <p class="text-base text-gray-700 font-semibold">
+                    Phone<br />
+                    01838473744
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-28">
+      <div>
+        <footer class="bg-gray-100 py-10">
+          <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">
+              <div>
+                <h3 class="text-4xl font-bold py-3">Riyan Photography</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Saepe sint rem neque aspernatur magni fugiat amet dolore id,
+                  maxime totam?
+                </p>
+                <div class="flex gap-x-3 py-3">
+                  <a href=""
+                    ><i
+                      class="fa-brands fa-facebook p-3 bg-primary duration-300 rounded-full text-white hover:bg-gray-400"
+                    ></i
+                  ></a>
+                  <a href=""
+                    ><i
+                      class="fa-brands fa-twitter p-3 bg-primary duration-300 rounded-full text-white hover:bg-gray-400"
+                    ></i
+                  ></a>
+                  <a href=""
+                    ><i
+                      class="fa-brands fa-whatsapp p-3 bg-primary duration-300 rounded-full text-white hover:bg-gray-400"
+                    ></i
+                  ></a>
+                  <a href=""
+                    ><i
+                      class="fa-brands fa-instagram p-3 bg-primary duration-300 rounded-full text-white hover:bg-gray-400"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h3 class="text-4xl font-bold py-3">Quicks Link</h3>
+                  <ul>
+                    <li><a class="hover:underline" href="!#">Home</a></li>
+                    <li><a class="hover:underline" href="#about">About</a></li>
+                    <li><a class="hover:underline" href="#work">Works</a></li>
+                    <li><a class="hover:underline" href="#blog">Blog</a></li>
+                    <li>
+                      <a class="hover:underline" href="#contact">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h3 class="text-4xl font-bold py-3">Quicks Link</h3>
+                <div class="relative">
+                  <input
+                    type="text"
+                    placeholder="Email"
+                    class="border border-green-600 p-3 outline-none"
+                  />
+                  <span
+                    class="bg-primary px-6 py-3 text-white hover:bg-transparent hover:border top-0 bottom--0 border-green-600 h-full absolute"
+                    >send</span
+                  >
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="text-center pt-8 relative w-full text-gray-500">
+              <p>
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved by
+                <span class="text-gray-800 font-bold"
+                  ><a
+                    href="http://www.facebook.com/riyanphotography"
+                    target="_blank"
+                    class="hover:underline"
+                    >Riyan Photography</a
+                  ></span
+                >
+              </p>
+            </div>
+            <div class="capitalize items-center justify-center gap-x-1 flex">
+              developed by
+              <a href="https://www.facebook.com/mdmahdihasanrafi"
+                ><img
+                  src="./img/img.JPG"
+                  class="w-6 h-6 rounded-full object-cover"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+
+
+
