@@ -286,22 +286,25 @@
           magnam ipsum dolore consequatur sapiente sint itaque cum beatae
           molestias ex. Fuga, harum possimus?
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 md:gap-16">
+        <div class="grid md:grid-cols-2 md:gap-16">
           <div>
             <form action="">
-              <div class="flex flex-col gap-y-4">
+              <div class="grid grid-cols space-y-2">
+                <label class="text-lg text-gray-500 font-semibold" for="name">Name*</label>
                 <input
-                  class="border py-3 px-3 border-gray-300 outline-none"
+                  class=" border py-2 px-3 border-gray-300 border-none outline-none "
                   type="text"
                   placeholder="Name"
                   required
                 />
+                <label class="text-lg text-gray-500 font-semibold" for="name">Email*</label>
                 <input
-                  class="border py-3 px-3 border-gray-300 outline-none"
+                  class="border py-2 px-3 border-gray-300 outline-none"
                   type="email"
                   placeholder="Email"
                   required
                 />
+                <label class="text-lg text-gray-500 font-semibold" for="name">Message*</label>
                 <textarea
                   class="border border-gray-300 outline-none px-3"
                   name=""
@@ -310,13 +313,9 @@
                   placeholder="Write..."
                   required
                 ></textarea>
-                <button
-                  type="submit"
-                  class="inline-block bg-primary text-white py-3 px-2 hover:opacity-75 duration-300"
-                >
-                  Send
-                </button>
+                   <button class = "px-6  py-2 bg-primary inline-block " type = "submit" name = "submit">Send</button>
               </div>
+      
             </form>
           </div>
           <div>
