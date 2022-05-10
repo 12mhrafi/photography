@@ -37,9 +37,9 @@ toggleMenu.addEventListener("click", () => {
 
 // categories
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 30,
-  freeMode: true,
+  freeMode: false,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,

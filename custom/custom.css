@@ -1,7 +1,4 @@
 
-html{
-    scroll-behavior: smooth;
-}
 :root{
     --primary:#008000;
 }
@@ -11,9 +8,13 @@ html{
     
 }
 #header.show{
-    background-color:var(--primary);
-    color:#fff;
+    background-color:#fff;
+    color:var(--primary);
     animation: show 500ms ease ;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+
 }
 @keyframes show {
     0%{transform:translateY(-12rem);}
@@ -40,7 +41,7 @@ html{
 @media screen and (max-width:767.99px) {
     .navbar{
         flex-direction: column;
-        background-color: var(--primary);
+        background-color:#fff;
         top:139;
         right:0;
         position:relative;
@@ -56,7 +57,8 @@ html{
 
     }
     .navbar a{
-        color:white;
+        color:var(--primary);
+
     }
     .openMenu{
         display: block;
